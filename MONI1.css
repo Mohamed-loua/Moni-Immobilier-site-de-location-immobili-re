@@ -1,0 +1,286 @@
+body{
+background-color: black;
+font-family: 'Big Shoulders Text', cursive;
+margin-top: 8px;
+margin-right: 8px;
+margin-bottom: 8px;
+margin-left: 8px;
+overflow-x: hidden;
+}
+
+.header{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color:white;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    left: 0px;
+    
+}
+
+.header .header-logo {
+     color:#ffffff;
+     font-family: 'Big Shoulders Text', cursive;
+     float: left;
+     margin-left: 30px;
+color: green;
+font-size: 20px;
+}
+.header .header-menu{
+      float: right;
+      margin-right: 30px;
+      color: green;
+}
+.header .header-menu a {
+    margin-right: 15px;
+      color: green;
+}
+.header .header-menu a:hover{
+color:#3498db ;
+}
+#Accueil{
+position: relative;
+margin-top:-21px ;
+margin-left: -6px;
+height:66px;
+width:105% ;
+background-color: white; ;
+
+}
+#MONI{position: relative;color: green;left: 16px;top: 28px;
+    font-size: 20px;
+}
+
+#prez{
+    position: relative;
+    top:47px;
+    color: white;
+}
+.navigation{
+
+    list-style-type: none;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.navigation:hover{
+
+    font-weight: bold;
+}
+#div1{
+list-style-type:none ;
+    top: 3%;
+    position: absolute;
+    left: 90%;
+    color: green;
+}
+
+#div2{
+    list-style-type:none ;
+    top: 3%;
+    position: absolute;
+    left: 75%;
+    color: green;
+}
+
+#div3{
+    list-style-type:none ;
+    top: 3%;
+    position: absolute;
+    left: 65%;
+    color: green;
+}
+
+.prez{
+    position: relative;
+    top: 12px;
+    font-size: 25px;
+    margin-top: -32px;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 620px;
+    border-top: 5px;
+    text-align: center;
+    background-color: teal;
+    background-image: url("aurora-boreal.jpg");
+    background-repeat: no-repeat;
+    background-size:1500px 593px  ;
+    padding-top: 20px;
+}
+#commencer{
+    box-sizing: border-box;
+    position: absolute;
+    height: 45px;
+    width: 320px;
+    top: 300px;
+    right: 505px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 20px;
+    background-color: rgb(220, 106, 0);
+    font-family: Montserrat;
+    font-weight: bold;
+    box-shadow: rgb(199, 199, 199) 2px 2px 16px 0px;
+}
+#commencer:hover {
+    background-color: rgb(94, 255, 0);
+}
+
+#commencer:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+#US{
+    position: relative;
+    background-color: blanchedalmond;
+    text-align: center;
+    top: -34px;
+    height: 468px;
+    width: 1350px;
+    left: -8px;
+    padding-top: 20px;
+}
+
+#blabla1{
+    position: relative;
+    top: 238px;
+    left: 96px;
+    height: 331px;
+    width: 292px;
+}
+
+#blabla2{
+    position: absolute;
+    top: 363px;
+    left: 523px;
+    height: 331px;
+    width: 292px;
+}
+
+#blabla3{
+    position: absolute;
+    top: 369px;
+    left: 950px;
+    height: 331px;
+    width: 292px;
+}
+#catalogue{
+    position: relative;
+    background-color: coral;
+    top: -56px;
+    height: 557px;
+    width: 1350px;
+    left: -8px;
+    background-image: url(commencez.jpg);
+    background-size: 1350px 557px;
+    background-repeat: no-repeat;
+}
+
+#catalogue_titre{
+text-align: center;
+}
+
+#basdepage{
+    position: relative;
+    background-color: gray;
+    width: 102%;
+    height: 500px;
+    top: -77px;
+    left: -8px;
+
+}
+
+
+
+#AboutUs{
+    text-decoration-line: underline;
+    position: relative;
+    left: 335px;
+    top: 18px;
+}
+
+#Contact{
+    text-decoration-line: underline;
+    position: relative;
+    left: 712px;
+    top: -47px;
+}
+
+#search{
+    position: absolute;
+    top: 10px;
+    background-image: url("research2.jpg");
+}
+
+#image1{
+    -moz-box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 20px;
+    position: relative;
+    left: 10px;
+    top: -256px;
+    height: 181px;
+    width: 267px;
+    background-image: url(adhesion.jpg);
+    background-size: 268px 181px;
+    background-repeat: no-repeat;
+}
+
+#image2{
+    box-sizing: border-box;
+    border-radius: 20px;
+    position: relative;
+    left: 10px;
+    top: -256px;
+    height: 181px;
+    width: 267px;
+    background-image: url(durée.jpg);
+    background-size: 268px 181px;
+    background-repeat: no-repeat;
+}
+
+#image3{
+    box-sizing: border-box;
+    border-radius: 20px;
+    position: relative;
+    left: 10px;
+    top: -256px;
+    height: 181px;
+    width: 267px;
+    background-image: url(community.jpg);
+    background-size: 268px 181px;
+    background-repeat: no-repeat;
+}
+
+#principe{
+    position: relative;
+    height: 91px;
+    width: 379px;
+    left: 787px;
+}
+
+#elcatalogo{
+    position: relative;
+    height: 70px;
+    width: 379px;
+    border: 1px solid rgb(85, 85, 175);
+    left: 786px;
+    text-align: center;
+    line-height: 70px;
+    color: blue;
+    font-weight: 100;
+    font-size: medium;
+    
+    
+}
