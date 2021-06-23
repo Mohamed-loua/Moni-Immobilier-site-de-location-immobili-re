@@ -1,0 +1,241 @@
+body{
+    background-color:white;
+    font-family: 'Big Shoulders Text', cursive;
+    margin:0px;
+}
+.block{
+    position: relative;
+}
+.header{
+    position: relative;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color:white;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    left: 0px;
+    
+}
+
+.header .header-logo {
+     color:#ffffff;
+     font-family: 'Big Shoulders Text', cursive;
+     float: left;
+     margin-left: 30px;
+color: green;
+font-size: 20px;
+}
+.header .header-menu{
+      float: right;
+      margin-right: 30px;
+      color: green;
+}
+.header .header-menu a {
+    margin-right: 15px;
+      color: green;
+}
+.header .header-menu a:hover{
+color:#3498db ;
+}
+#Accueil{
+    position: relative;
+    margin-top:-21px ;
+    margin-left: -6px;
+    height:66px;
+    width:105% ;
+    background-color: white; ;
+    
+    }
+   
+    #Photo1{
+       
+        position: relative;
+    top: 12px;
+    font-size: 25px;
+    margin-top: -32px;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 380px;
+    width: 823;
+    border-top: 5px;
+    text-align: center;
+    background-color: teal;
+    background-image: url(Photo1P2.jpg);
+    background-repeat: no-repeat;
+    background-size:800px 400px  ;
+    padding-top: 20px;
+    }
+    #Photo2{
+        position: absolute;
+        top: 45px;
+    left: 800px;
+        font-size: 25px;
+        margin-top: -32px;
+        margin-left: -10px;
+        margin-right: -10px;
+        height: 196px;
+        width: 600px;
+        border-top: 5px;
+        text-align: center;
+        background-color: teal;
+        background-image: url(Photo2P1.jpg);
+        background-repeat: no-repeat;
+        background-size: 600px 235px;
+        padding-top: 20px;
+    }
+        
+
+    #Photo3{
+        position: absolute;
+        top: 261px;
+        left: 801px;
+        font-size: 25px;
+        margin-top: -32px;
+        margin-left: -10px;
+        margin-right: -10px;
+        height: 165px;
+        width: 600px;
+        border-top: 5px;
+        text-align: center;
+        background-color: teal;
+        background-image: url(Photo3P1.jpg);
+        background-repeat: no-repeat;
+        background-size: 600px 235px;
+        padding-top: 20px;
+        }
+
+#Maison{
+    position: relative;
+    top: 91px;
+}
+#Informations{
+    position: relative;
+    top: 84px;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    box-shadow: rgb(199, 199, 199) 2px 2px 16px 0px;
+}
+
+#endroit1{
+    text-align: center;
+    
+}
+
+#Info1{
+    font-size: 20px;
+    font-weight: bold;
+}
+#Description{
+    position: relative;
+    background: white;
+    box-shadow: rgb(199, 199, 199) 2px 2px 16px 0px;
+    height: 273px;
+    width: 60%;
+    top: 101px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#Localisation{
+    position: relative;
+    top: -207px;
+    left: 839px;
+    background-color: white;
+    height: 273px;
+    width: 37%;
+    box-shadow: rgb(199, 199, 199) 2px 2px 16px 0px;
+}
+#Zone{
+font-size: 20px;
+}
+#localisation{
+    position: absolute; 
+    box-sizing: border-box; 
+    z-index: 3; 
+    height: 208px;
+    width: 366px;
+    left: 39px;
+    top: 54px;
+    white-space: pre-wrap; 
+    text-decoration: none; 
+    user-select: none; 
+    font-family: Montserrat; 
+    font-size: 14px; 
+    color: rgb(26, 188, 156); 
+    line-height: 1; 
+    border-radius: 0px; 
+    font-weight: normal; 
+    font-style: normal; 
+    text-align: left;
+    background-image: url(localisation1.PNG);
+    background-repeat: no-repeat;
+}
+
+#canvatest{
+position: relative;
+top:-250px;
+border: 1px solid green;
+
+}
+#popupBoxOnePosition{
+    top: -99; left: 0; position: fixed; width: 100%; height: 120%;
+    background-color: rgba(0,0,0,0.7); display: none;;
+    animation: drop 0.5s ease forwards;
+}
+#close{
+    display:relative;
+    cursor:pointer;
+    margin:0;
+    float:right;
+    top: -104px;
+    left: 10px;
+    height: 19px;
+    width: 21px;
+    padding:0 0 5px 0;
+    background-color:red;
+    text-align:center;
+    font-weight:bold;
+    font-size:11px;
+    color:white;
+    border-radius:3px;
+    z-index:100000000000000000;
+}
+
+
+.popupBoxWrapper{
+    top: 186px;position: relative; width: 550px; margin: 50px auto; text-align: left;
+}
+.popupBoxContent{
+    background-color: #FFF; padding: 15px;
+}
+
+@keyframes drop{
+    0%{opacity: 0;};
+    70%{transform: translateY(-800px);}
+    100%{transform: translateY(-550px); opacity: 1;}
+}
+#réserve{
+    box-sizing: border-box;
+    position: absolute;
+    height: 90px;
+    width: 320px;
+    top: 900px;
+    right: 505px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 20px;
+    background-color: rgb(220, 106, 0);
+    font-family: Montserrat;
+    font-weight: bold;
+    box-shadow: rgb(199, 199, 199) 2px 2px 16px 0px;
+}
